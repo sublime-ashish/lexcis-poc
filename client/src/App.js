@@ -17,7 +17,6 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
           <Route path="*" element={<NotFound />} />
-
         </Routes>
       </Router>
     </AuthProvider>
